@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	color:#ffffff;
+}
+#banner-sec{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/bg-img.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+.container{
+	width:40%;
+	margin:auto;
+	padding-top:110px;
+}
+.banner-icon{
+	width:60px;
+	height:60px;
+	border:1px solid #fff;
+	border-radius:50%;
+	padding:12px;
+	margin:auto;
+	filter:brigtness(300%);
+}
+.banner-icon i{
+	display:block;
+	font-size:28px;
+	text-align:center;
+}
+.vertical-line{
+	width:0.1%;
+	margin:auto;
+	border-left:1px solid #fff;
+	height:40px;
+}
+.banner-cnt{
+	padding:50px 30px;
+}
+.cnt-head{
+	text-align:center;
+	letter-spacing:5px;
+}
+.cnt-para span, .banner-foot span{
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+.cnt-para{
+	text-align:center;
+	font-size:10px;
+	letter-spacing:2px;
+	padding-top:20px;
+}
+.banner-nav table{
+	width:65%;
+	margin:auto;
+	border-collapse:collapse;
+	border-color:#fff;
+}
+.banner-nav td{
+	letter-spacing:2px;
+	text-align:center;
+	padding:8px;
+	font-size:10px;
+}
+#td2{
+	padding:8px 15px;
+}
+#td1{
+	padding:8px 15px;
+}
+.banner-foot{
+	padding:50px 0;
+	letter-spacing:2px;
+	text-align:center;
+	font-size:10px;
+}
+@media(max-width:900px){
+	.container{
+		width:80%;
+	}
+}
